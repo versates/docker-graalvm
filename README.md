@@ -1,6 +1,6 @@
 # Debian based GraalVM Community Edition for Docker
 ## Supported tags
-* `latest` [(10/Dockerfile)](https://github.com/versates/docker-graalvm/blob/master/Dockerfile)
+* `latest` ([Dockerfile](https://github.com/versates/docker-graalvm/blob/master/Dockerfile))
 
 [![](https://images.microbadger.com/badges/image/versates/graalvm.svg)](https://microbadger.com/images/versates/graalvm "Get your own image badge on microbadger.com")
 
