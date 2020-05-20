@@ -1,10 +1,15 @@
 ARG DEBIAN_IMAGE_VERSION
 FROM debian:${DEBIAN_IMAGE_VERSION:-"stretch-slim"}
 
-LABEL maintainer="Versates <docker@versates.com>"
-
 ARG JDK_VERSION
 ARG GRAALVM_VERSION
+ARG VCS_REF
+ARG BUILD_DATE
+
+LABEL maintainer="Versates <docker@versates.com>" \
+      org.label-schema.vcs-ref="${VCS_REF}" \
+      org.label-schema.vcs-url="${VCS_URL}" \
+      org.label-schema.build-date="${BUILD_DATE}"
 
 ENV LANG="C.UTF-8" \
     JDK_VERSION=${JDK_VERSION:-"11"} \
