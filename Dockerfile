@@ -1,6 +1,8 @@
 ARG DEBIAN_IMAGE_VERSION
 FROM debian:${DEBIAN_IMAGE_VERSION:-"stretch-slim"}
 
+LABEL maintainer="Versates <docker@versates.com>"
+
 ARG JDK_VERSION
 ARG GRAALVM_VERSION
 
