@@ -4,6 +4,7 @@ FROM debian:${DEBIAN_IMAGE_VERSION:-"stretch-slim"}
 ARG JDK_VERSION
 ARG GRAALVM_VERSION
 ARG VCS_REF
+ARG VCS_URL
 ARG BUILD_DATE
 
 LABEL maintainer="Versates <docker@versates.com>" \
