@@ -8,7 +8,7 @@ ARG GRAALVM_VERSION
 
 ENV LANG="C.UTF-8" \
     JDK_VERSION=${JDK_VERSION:-"11"} \
-    GRAALVM_VERSION=${GRAALVM_VERSION:-"20.0.0"} \
+    GRAALVM_VERSION=${GRAALVM_VERSION:-"20.1.0"} \
     INSTALL_DIR="/usr/lib/java" \
     DOWNLOAD_URL="https://github.com/graalvm/graalvm-ce-builds/releases/download"
 ENV JAVA_HOME="${INSTALL_DIR}/graalvm-ce-java${JDK_VERSION}-${GRAALVM_VERSION}"
