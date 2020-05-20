@@ -1,10 +1,10 @@
 # Debian based GraalVM Community Edition for Docker
-[![](https://images.microbadger.com/badges/image/versates/graalvm.svg)](https://microbadger.com/images/versates/graalvm "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/versates/graalvm.svg)](https://microbadger.com/images/versates/graalvm "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/versates/graalvm.svg)](https://microbadger.com/images/versates/graalvm "Get your own image badge on microbadger.com")
 
 
 Hands-on Docker image for Java applications running on [GraalVM CE](https://www.graalvm.org) and [Debian](https://www.debian.org).
 
-[Dockerfile](https://github.com/versates/docker-graalvm/blob/master/Dockerfile)
+**@see** [Dockerfile](https://github.com/versates/docker-graalvm/blob/master/Dockerfile)
 
 
 # How to use this image
